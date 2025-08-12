@@ -30,6 +30,9 @@ To run the Bad Update exploit you'll need one of the supported games listed abov
 
 The exploit has a 30% success rate and can take up to 20 minutes to trigger successfully. If after 20 minutes the exploit hasn't triggered you'll need to power off your Xbox 360 console and repeat the process from step 5.
 
+# Contributing
+Due to continuous spam and lack of moderation controls on GitHub's side I've decided to make this repository read-only. If anyone has any meaningful contributions to make you can contact me directly. Do **NOT** contact me for general support questions or low effort contributions (spelling mistakes, verbiage, etc.), I will not respond and you will be blocked.
+
 # FAQ
 **Q: Why do I have to re-run the exploit every time I turn my console on?**  
 A: The exploit is not-persistent, it only works for as long as the console is kept on. Once the console is turned off or rebooted you'll need to run the exploit again.
