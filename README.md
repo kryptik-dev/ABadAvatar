@@ -1,3 +1,12 @@
+A real README will come shortly, but until then:
+- You can tell if the exploit is running by moving the cursor on the profile select screen. Additionally, the 2 LEDs on the ROL will occasionally swap. Attempting to back out of the selection screen or log in at this point will interfere with the exploit.
+- Don't log in to the exploit profile, *especially while on LIVE*. It's unneeded, and since the profile is LIVE enabled to allow loading custom avatar items, I'd imagine the servers would get unhappy.
+- You should ensure that you are disconnected from both Wi-Fi and Ethernet before using this exploit to prevent LIVE bans. Ethernet is easy, but Wi-Fi requires you to either disconnect before turning off your console, or sacrifice the cold boot aspect (or just don't hook up the 360 to the internet at all).
+- Stage 2 is fully buildable start-to-finish without any trickery. If you want to modify stage1, hexedit the output into the avatar item from the release profile at address 0x2200. Stage0 is tricky to modify due to compression, but only performs a stack pivot and can safely be considered static.
+- Stage 3 should be built at 0x90110000 instead of 0x98030000. Additionally, you should pad up to 0x10000 bytes with `4E 80 00 20` to ensure the module used in the exploit can be properly unloaded.
+
+# Below is the original Bad Update README
+
 ![banner](https://github.com/user-attachments/assets/e9684c9d-d4db-48a8-9661-53629c20e22e)
 
 Bad Update is a non-persistent software only hypervisor exploit for Xbox 360 that works on the latest (17559) software version. This repository contains the exploit files that can be used on an Xbox 360 console to run unsigned code. This exploit can be triggered using one of the following games:
