@@ -1,8 +1,10 @@
 A real README will come shortly, but until then:
+- Ensure your console has the Avatar update data. If you don't have an HDD, you may need to install the official offline System Update 17559 on a formatted USB. **Don't use LIVE to update, just in case Microsoft decides to patch this.**
+- No xex is included. You'll need to put an xex that does what you wish in the BadUpdatePayload folder (odds are, this is XeUnshackle or FreeMyXe)
 - You can tell if the exploit is running by moving the cursor on the profile select screen. Additionally, the 2 LEDs on the ROL will occasionally swap. Attempting to back out of the selection screen or log in at this point will interfere with the exploit.
-- Don't log in to the exploit profile, *especially while on LIVE*. It's unneeded, and since the profile is LIVE enabled to allow loading custom avatar items, I'd imagine the servers would get unhappy.
+- Don't log in to the exploit profile, **especially while on LIVE**. There is a PIN set to prevent accidental logins.
 - You should ensure that you are disconnected from both Wi-Fi and Ethernet before using this exploit to prevent LIVE bans. Ethernet is easy, but Wi-Fi requires you to either disconnect before turning off your console, or sacrifice the cold boot aspect (or just don't hook up the 360 to the internet at all).
-- Stage 2 is fully buildable start-to-finish without any trickery. If you want to modify stage1, hexedit the output into the avatar item from the release profile at address 0x2200. Stage0 is tricky to modify due to compression, but only performs a stack pivot and can safely be considered static.
+- Stage 2 is fully buildable start-to-finish without any trickery. If you want to modify stage1, hexedit the output into the avatar item from the release profile at address 0x2200. Stage0 is tricky to modify due to compression, but only shows the anti-scam text and performs a stack pivot and can safely be considered static.
 - Stage 3 should be built at 0x90110000 instead of 0x98030000. Additionally, you should pad up to 0x10000 bytes with `4E 80 00 20` to ensure the module used in the exploit can be properly unloaded.
 
 # Below is the original Bad Update README
