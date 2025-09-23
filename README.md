@@ -3,14 +3,14 @@ A XeUnshackle Alternative with a ```SMBUI```_(Simple Message Box UI)_ similar to
 
 1. Loads `DashLaunch` As **Normal**.
 
-2.  Option to skip the the UI and take you straight to the Xbox 360 Dashboard.<br>
+2.  Option to skip the UI and take you straight to the Xbox 360 Dashboard.<br>
 _**Note: this disables UI permanently, unless the 'config.ini' file is deleted or set to false, `XexMenu` can be used to `delete` the file**._
 
 3. Shows console information in the ``SMBUI`` message box.
 
-4. Option to `save` Console Information to a ``text file``.
+4. Option to `Save` Console Information to a ``Text File``.
 
-_**If this is not adopted by @shutterbug2000 for [ABadAvatar](https://github.com/shutterbug2000/ABadAvatar), then I will make it an independent software named ````'HexPatch'````**_
+_**If this is not adopted by @shutterbug2000 for [ABadAvatar](https://github.com/shutterbug2000/ABadAvatar), then this software will be rebranded to an independent software named ````'HexPatch'````**_
 
 
 ## [ABadAvatar](https://github.com/shutterbug2000/ABadAvatar) Original ReadMe:
